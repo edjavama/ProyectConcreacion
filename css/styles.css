@@ -13,32 +13,43 @@ body {
     padding: 10px 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: fixed;
+    
     top: 0;
     width: 100%;
     z-index: 1000;
 }
 
+.centar-texto {
+    display: inline-block;
+    font-size: 20px; /* Tamaño del texto */
+    font-weight: bold;
+}
 .logo {
     display: flex;
     align-items: center;
 }
 
 .logo img {
-    width: 50px; /* Tamaño del logo */
+    width: 150px; /* Tamaño del logo */
     height: auto;
     margin-right: 10px;
+    /*flex: 1;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo span {
-    text-align: center;
+    display: inline-block;
     font-size: 20px; /* Tamaño del texto */
     font-weight: bold;
 }
 
 .vertical-menu {
     width: 200px;
-    background-color: #444;
+    background-color: #148f77;
     padding-top: 60px; /* Para evitar que se superponga con la barra superior */
     position: fixed;
     top: 0;
@@ -67,7 +78,7 @@ body {
 }
 
 .vertical-menu a:hover {
-    background-color: #575757;
+    background-color: #148f77;
 }
 
 main {
